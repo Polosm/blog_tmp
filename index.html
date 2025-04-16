@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+<title>城东城北·综合治理</title>
+<link rel="stylesheet" type="text/css" href="js/bootstrap-4.1.1/dist/css/bootstrap.min.css"/>
+<script type="text/javaScript" src="js/jquery.min.js"></script>
+<script type="text/javaScript" src="js/bootstrap-4.1.1/dist/js/bootstrap.min.js"></script>
+<link rel="icon" href="image/favicon.ico">
+<style>
+	
+	.img-tip{
+		width:80px;
+		height:80px;
+	}
+	
+	.img-tip:hover{
+		cursor:pointer !important;
+	}
+	
+	.title{
+		font-weight:bold;
+		font-size:13px;
+		color:#337ab7;
+	}
+	
+	.title:hover{
+		cursor:pointer !important;
+		color:#23527c;
+	}
+</style>
+<script>
+	function gotomycaws(){
+		window.open("http://192.168.18.124:8080/mycaws","_blank");
+	}
+	
+	function gotomygroup(){
+		window.open("http://192.168.18.124:8080/mysx","_blank");
+	}
+	
+	function gotomycsws(){
+		window.open("http://192.168.18.124:8080/mysso","_blank");
+	}
+	
+	function gotouser(){
+		window.open("http://192.168.18.124:8080/sso","_blank");
+	}
+	function gotomysps(){
+		window.open("http://192.168.18.124:8080/sps","_blank");
+	}
+	function gotomyjc(){
+		window.open("http://192.168.18.124:8080/myjc","_blank");
+	}
+	function gotomytpr(){
+		window.open("https://demo.mytpr.net","_blank");
+	}
+	
+</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-info">
+		<div class="container">
+			<a class="navbar-brand text-white" href="#"><img src="image/logo.png" width="80" height="80"/>  城东城北·综合治理</a>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row" style="margin-top:50px;">
+		
+			<div class="col text-center">
+				<img class="img-tip" src="image/dms.png" onclick="gotomycaws()">
+				<div class="pt-3">
+					<span class="title" onclick="gotomycaws()">动态监测</span>
+				</div>
+			</div>
+			
+			<div class="col text-center">
+				<img class="img-tip" src="image/cows.png" onclick="gotomygroup()">
+				<div class="pt-3">
+					<span class="title" onclick="gotomygroup()">创新实践</span>
+				</div>
+			</div>
+			<div class="col text-center">
+				<img class="img-tip" src="image/sps.png" onclick="gotomycsws()">
+				<div class="pt-3"> 
+					<span class="title" onclick="gotomycsws()">后台管理</span>
+				</div>
+			</div>
+			
+			<div class="col text-center">
+				<img class="img-tip" src="image/tpr.png" onclick="gotomycaws()">
+				<div class="pt-3">
+					<span class="title" onclick="gotomycaws()">TPR</span>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="row" style="margin-top:50px;">  
+			<div class="col text-center">
+				<img class="img-tip" src="image/tstudy.png" onclick="gotouser()">
+				<div class="pt-3"> 
+					<span class="title" onclick="gotouser()">技巧汇总</span>
+				</div>
+			</div>
+			<div class="col text-center">
+				<img class="img-tip" src="image/judicial.png" onclick="gotomysps()">
+				<div class="pt-3"> 
+					<span class="title" onclick="gotomysps()">实例封测</spab>
+				</div>
+			</div>
+            
+			<div class="col text-center">
+				<img class="img-tip" src="image/myjc.png" onclick="gotomyjc()">
+				<div class="pt-3"> 
+					<span class="title" onclick="gotomyjc()">测试管理</span>
+				</div>
+			</div>
+			<div class="col text-center">
+				<img class="img-tip" src="image/tpr01.png" onclick="gotomytpr()">
+				<div class="pt-3"> 
+					<span class="title" onclick="gotomytpr()">云平台</span>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="bg-dark fixed-bottom" style="height:50px;">
+		<div class="text-center text-white" style="height:50px;line-height:50px;font-family:Microsoft YaHei;font-size:12px;">
+			<span>技术支持：城东城北管理协会</span>&nbsp;&nbsp;&nbsp;&nbsp;
+			<span>电话：01-2032025051</span>&nbsp;&nbsp;&nbsp;&nbsp;
+			<span>Mail：info@ddns.com.cn</span>
+		</div>
+	</div>
+</body>
+</html>
